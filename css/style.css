@@ -106,7 +106,7 @@ body {background-color:rgb(20,20,20); font-family:'Work Sans', sans-serif;}
     display:block;
     font-size: 1.80rem;
     font-weight: bold;
-    font-family:sans-serif;
+    font-family:'Work Sans', sans-serif;
     text-transform: uppercase;
     transition: 0.3s;
     text-align:center;
@@ -240,8 +240,7 @@ div h1 span {
     list-style-type: none;
 }
 .secthree ul li {
-    padding-bottom:5px;
-    padding-top:5px;
+    padding-top:30px;
 }
 .secthree a:link {
     font-size: 1.1rem;
@@ -275,8 +274,7 @@ div h1 span {
     list-style-type: none;
 }
 .secfour ul li {
-    padding-bottom:5px;
-    padding-top:5px;
+    padding-top:30px;
 }
 .secfour a:link {
     font-size: 1.1rem;
@@ -499,8 +497,7 @@ div h1 span {
         margin-top:-20px;
     }
     .secthree ul li {
-        padding-top: 5px;
-        padding-bottom: 5px;
+        padding-top: 15px;
     }
     .secthree a:link {
         font-size: 0.80rem;
@@ -528,10 +525,13 @@ div h1 span {
     }
     .secfour {
         margin-top:20px;
-        margin-bottom:10px;
+        margin-bottom:50px;
     }
     .secfour h1 {
         font-size:0.90rem;
+    }
+    .secfour ul li {
+        padding-top: 15px;
     }
     .secfour a:link {
         font-size: 0.80rem;
@@ -549,7 +549,7 @@ div h1 span {
         font-size: 0.70rem;
     }
     .footer {
-        padding:5px;
+        padding:10px;
     }
     .footer p {
         font-size:0.55rem;

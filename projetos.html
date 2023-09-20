@@ -3,15 +3,33 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Jose Junior</title>
+        <title>Jose Junior Projetos</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Mooli&family=Work+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
         <link rel="stylesheet" href="css/style.css">
+        <script defer src="js/script.js"></script>
+        <link rel="icon" type="image/x-icon" href="imagens/icon.png">
     </head>
         <body>
             <header class="header">
                 <h1><a href="index.html" target="_Self" title="josejunior">josejunior</a></h1>
+                <div id="menumob" class="menumob">
+                    <a href="javascript:void(0)" class="closebtn" onclick="funCloseMenuMob()">&times;</a>
+                    <div>
+                        <a href="index.html" title="Início">Início</a>
+                        <a href="projetos.html" title="Projetos">Projetos</a>
+                        <a href="videos.html" target="_Self" title="Vídeos">Vídeos</a>
+                        <a href="#" target="_Self" title="Posts">Posts</a>
+                        <a href="#" target="_Self" title="Scripts">Scripts</a>
+                        <a href="#" target="_Self" title="Dotfiles">Dotfiles</a>
+                        <a href="#" target="_Self" title="Contato">Contato</a>    
+                    </div>
+                </div>
+                <button class="menubtn" onclick="funOpenMenuMob()">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
                 <nav class="nav">
                     <ul>
                         <li>
@@ -24,16 +42,16 @@
                             <a href="videos.html" target="_Self" title="Vídeos">Vídeos</a>
                         </li>
                         <li>
-                            <a href="posts.html" target="_Self" title="Posts">Posts</a>
+                            <a href="#" target="_Self" title="Posts">Posts</a>
                         </li>
                         <li>
-                            <a href="scripts.html" target="_Self" title="Scripts">Scripts</a>
+                            <a href="#" target="_Self" title="Scripts">Scripts</a>
                         </li>
                         <li>
-                            <a href="dotfiles.html" target="_Self" title="Dotfiles">Dotfiles</a>
+                            <a href="#" target="_Self" title="Dotfiles">Dotfiles</a>
                         </li>
                         <li>
-                            <a href="contato.html" target="_Self" title="Contato">Contato</a>
+                            <a href="#" target="_Self" title="Contato">Contato</a>
                         </li>
                 </nav>
             </header>
@@ -42,13 +60,22 @@
                     <ul>
                         <h1>Projetos</h1>
                         <li>
-                            <a href="https://josjunior.github.io/dataehorajs/" target="_Blank" title="Site que exibe a data e a hora com JavaScript">Site que exibe a data e a hora com JavaScript</a>
+                            <a href="https://bible-verses.vercel.app/" target="_Blank" title="BibleVerses - Site que exibe versículos bíblicos">BibleVerses - Site que exibe versículos bíblicos</a>
+                        </li>
+                        <li>
+                            <a href="https://geradordesenhas-two.vercel.app/" target="_Blank" title="Gerador de senhas - Site que gera senhas">Gerador de senhas - Site que gera senhas</a>
+                        </li>
+                        <li>
+                            <a href="https://convertext.vercel.app/" target="_Blank" title="ConverText - Site que converte textos(maiscúlo/minúsculo)">ConverText - Site que converte textos (maiscúlo/minúsculo)</a>
+                        </li>
+                        <li>
+                            <a href="https://dataehorajs.vercel.app/" target="_Blank" title="DataeHora - Site que exibe a data e a hora corretas">DataeHora - Site que exibe a data e a hora corretas</a>
                         </li>
                     </ul>
                 </section>
             </main>
             <footer class="footer">
-                <p>Por Jose Junior - Veja o código fonte deste site no <a href="https://github.com/josjunior" target="_Blank" title="GitHub">GitHub</a>.</p>
+                <p>Por Jose Junior - Veja o código fonte deste site no <a href="https://github.com/josjunior/josejuniorsite" target="_Blank" title="GitHub">GitHub</a>.</p>
             </footer>
         </body>
 </html>
