@@ -7,11 +7,28 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Mooli&family=Work+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
         <link rel="stylesheet" href="css/style.css">
+        <script defer src="js/script.js"></script>
     </head>
         <body>
             <header class="header">
                 <h1><a href="index.html" target="_Self" title="josejunior">josejunior</a></h1>
+                <div id="menumob" class="menumob">
+                    <a href="javascript:void(0)" class="closebtn" onclick="funCloseMenuMob()">&times;</a>
+                    <div>
+                        <a href="index.html" title="Início">Início</a>
+                        <a href="projetos.html" title="Projetos">Projetos</a>
+                        <a href="videos.html" target="_Self" title="Vídeos">Vídeos</a>
+                        <a href="posts.html" target="_Self" title="Posts">Posts</a>
+                        <a href="#" target="_Self" title="Scripts">Scripts</a>
+                        <a href="#" target="_Self" title="Dotfiles">Dotfiles</a>
+                        <a href="contato.html" target="_Self" title="Contato">Contato</a>    
+                    </div>
+                </div>
+                <button class="menubtn" onclick="funOpenMenuMob()">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
                 <nav class="nav">
                     <ul>
                         <li>
@@ -24,43 +41,45 @@
                             <a href="videos.html" target="_Self" title="Vídeos">Vídeos</a>
                         </li>
                         <li>
-                            <a href="posts.html" target="_Self" title="Posts">Posts</a>
+                            <a href="#" target="_Self" title="Posts">Posts</a>
                         </li>
                         <li>
-                            <a href="scripts.html" target="_Self" title="Scripts">Scripts</a>
+                            <a href="#" target="_Self" title="Scripts">Scripts</a>
                         </li>
                         <li>
-                            <a href="dotfiles.html" target="_Self" title="Dotfiles">Dotfiles</a>
+                            <a href="#" target="_Self" title="Dotfiles">Dotfiles</a>
                         </li>
                         <li>
-                            <a href="contato.html" target="_Self" title="Contato">Contato</a>
+                            <a href="#" target="_Self" title="Contato">Contato</a>
                         </li>
                 </nav>
             </header>
             <main class="main">
                 <section class="secone">
+                    <img src="imagens/josejuniorm.jpeg" id="imgt" alt="josejunior" style="width:150px; height:150px;">
+                    <img src="imagens/josejuniormm.jpeg" id="imgth" alt="josejunior" style="width:80px; height:80px;">
                     <div>
                         <h1>Olá meu nome é <span>Jose Junior</span></h1>
                         <p>Sou um estudante de programação e tenho um canal no youtube em que compartilho o meu conhecimento sobre distribuições baseadas em Linux.</p>
                         <p>Este site foi criado para ser a minha "base" na internet, aqui você encontrará os meus projetos, meus scripts, meus dotfiles e alguns posts com conteúdos
                         complementares aos meus vídeos.</a></p>
-                    </div>                    
+                    </div>
                     <img src="imagens/josejunior.jpeg" alt="josejunior" style="width:300px; height:200px;">
                 </section>
                 <section class="sectwo">
                     <h1>Procurando por algo?</h1>
                     <ul>
                         <li>
-                            <a href="#" target="_Self" title="Vídeos">Assista meus últimos vídeos no Youtube.</a>
+                            <a href="videos.html" target="_Self" title="Assista meus últimos vídeos">Assista meus últimos vídeos no Youtube.</a>
                         </li>
                         <li>
-                            <a href="#" target="_Self" title="Blog">Acesse meus dotfiles.</a>
+                            <a href="#" target="_Self" title="Acesse meus dotfiles">Acesse meus dotfiles.</a>
                         </li>
                         <li>
-                            <a href="#" target="_Self" title="Blog">Acesse meus scripts.</a>
+                            <a href="#" target="_Self" title="Acesse meus scripts">Acesse meus scripts.</a>
                         </li>
                         <li>
-                            <span>Deseja entrar em contato? Fique a vontade para <a href="#" target="_Blank" title="Contato">deixar uma mensagem</a>.</span>
+                            <span>Deseja entrar em contato? Fique a vontade para <a href="#" target="_Blank" title="deixar uma mensagem">deixar uma mensagem</a>.</span>
                         </li>
                     </ul>
                 </section>
@@ -79,10 +98,10 @@
                     <ul>
                         <h1>Últimos posts</h1>
                         <li>
-                            <a href="#" target="_Self" title="Post">Aguardando</a>
+                            <a href="#" target="_Self" title="Em breve">Em breve</a>
                         </li>
                         <li>
-                            <a href="posts.html" id="allpo" target="_Self" title="Ver todos os posts">Ver todos os posts</a>
+                            <a href="#" id="allpo" target="_Self" title="Ver todos os posts">Ver todos os posts</a>
                         </li>
                     </ul>
                 </section>
