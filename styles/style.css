@@ -346,9 +346,6 @@ main .secwel .txdiv {
     main .secwel .imdiv {
         display: none;
     }
-    .footer p {
-        font-size: 0.70rem;
-    }
 }
 @media screen and (max-width:350px) {
     .secwel .txdiv h1 {
@@ -429,6 +426,6 @@ main .secwel .txdiv {
         display: none;
     }
     .footer p {
-        font-size:0.60rem;
+        font-size:0.70rem;
     }    
 }
