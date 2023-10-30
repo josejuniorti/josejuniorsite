@@ -1,0 +1,422 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+body {
+    background-color: rgb(4, 54, 59);
+    margin-top:20px;
+    color: rgb(0, 89, 255);
+}
+.cont {
+    z-index: 0;
+    width: 70%;
+    height: 80vh;
+    background-color: transparent;
+    margin:auto;
+    filter:drop-shadow(0 0 2px rgb(0, 0, 0));
+    border-radius:8px;
+    display: flex;
+    flex-direction: column;
+}
+.cont main .secwel {
+    width: 100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 47, 53);
+    border-radius: 20px;
+    padding:30px;
+    margin-bottom:30px; 
+}
+main .secwel img {
+    border-radius: 100px;;
+    filter: brightness(80%);
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(0, 89, 255);
+
+}
+main .secwel .txdiv {
+    text-align:justify;
+    padding-left: 20px;
+    color: rgb(0, 89, 255);
+}
+.secwel .txdiv h1 {
+    font-size: 2.5rem;
+}
+.secwel .txdiv h2 {
+    font-size: 1.5rem;
+}
+.secwel .txdiv h3 {
+    font-size: 1.5rem;
+}
+.againl {
+    font-size: 1rem;
+    color: rgb(0, 89, 255);
+    padding:10px;
+    background-color: transparent;
+    border: none;
+    display: none;
+    cursor: pointer;
+}
+.secprovid {
+    width: 100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+}
+.secprovid h1 {
+    font-size:3rem;
+    color: rgb(0, 89, 255);
+    padding-bottom:10px;
+}
+.divbtnprovid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.divbtnprovid .probtn {
+    width:50%;
+    height:150px;
+    padding:40px;
+    background-color: rgb(0, 89, 255);
+    border-style:none;
+    font-size:3rem;
+    border-radius:10px;
+    margin-right:10px;
+    cursor:pointer;
+    color: rgb(0, 0, 0);
+}
+.divbtnprovid .vidbtn {
+    width:50%;
+    padding:40px;
+    background-color: rgb(0, 89, 255);
+    border-style:none;
+    font-size:3rem;
+    border-radius:10px;
+    cursor:pointer;
+    color: rgb(0, 0, 0);
+}
+#pro {
+    display: none;
+}
+.prodiv {
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top:20px;
+    padding:10px;
+    border-radius: 10px;
+    background-color: rgb(2, 71, 199);
+}
+.prodiv img {
+    border-radius:15px; 
+}
+.prodiv .txtprodiv {
+    text-align: justify;
+    padding:10px;
+    color: rgb(0, 0, 0);
+}
+.prodiv .txtprodivlinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.prodiv .txtprodivlinks a:link {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size:1.5rem;
+}
+.prodiv .txtprodivlinks a:hover {
+    font-size: 1.4rem;
+}
+.prodiv .txtprodivlinks a:visited {
+    color: rgb(0, 0, 0);
+}
+.prodiv .txtprodivlinks a:active {
+    color: rgb(0, 0, 0);
+}
+.prodiv .txtprodiv h1 {
+    padding-bottom:10px;
+    font-size: 3rem;
+}
+.prodiv .txtprodiv h2 {
+    font-size: 1.5rem;
+}
+
+#vid {
+    display: none;
+}
+.viddiv {
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:20px;
+    padding:10px;
+    border-radius: 10px;
+    background-color: rgb(2, 71, 199);
+}
+.viddiv .vidimgtxtdiv {
+    display: flex;
+    flex-direction: column;
+    padding-bottom:10px;
+}
+.viddiv img {
+    border-radius:15px; 
+}
+.viddiv .txtviddiv {
+    text-align: center;
+    padding:10px;
+    color: rgb(0, 0, 0);
+}
+.viddiv .txtviddivlinks {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+.viddiv .txtviddivlinks .viddivbtn {
+    border:none;
+    font-size: 3rem;
+    background-color: transparent;
+    cursor: pointer;
+}
+.txtviddivlinks .viddivbtn:hover {
+    font-size: 2.9rem;
+}
+.viddiv .txtviddiv h1 {
+    padding-bottom:10px;
+    font-size:2rem;
+}
+#vidone {
+    display: none;
+}
+#vidtwo {
+    display: none;
+}
+.footer {
+    padding-top:70px;
+    padding-bottom:30px;
+    text-align: center;
+}
+.footer p {
+    font-size: 1rem;
+    color: rgb(0, 89, 255);
+}
+.footer a:link {
+    text-decoration: none;
+    color: rgb(0, 89, 255);
+}
+.footer a:visited {
+    color: rgb(0, 89, 255);
+}
+.footer a:hover {
+    color: rgb(0, 89, 255);
+}
+.footer a:active {
+    color: rgb(0, 89, 255);
+}
+
+.imdivmobile {
+    display: none;
+}
+.impromobile {
+    display: none;
+}
+.imdivmobiletwo {
+    display: none;
+}
+
+@media screen and (max-width:1100px) {
+    .secwel .txdiv h1 {
+        font-size: 2rem;
+    }
+    .secwel .txdiv h2 {
+        font-size: 1rem;
+    }
+    .secwel .txdiv h3 {
+        font-size: 1rem;
+    }
+    .secprovid h1 {
+        font-size: 2rem;
+    }
+    .divbtnprovid .probtn {
+        height:100px;
+        padding: 20px;
+        font-size: 2.5rem;
+    }
+    .divbtnprovid .vidbtn {
+        height: 100px;
+        padding: 20px;
+        font-size: 2.5rem;
+    }
+
+    .prodiv .txtprodivlinks a:link {
+        font-size: 1rem;
+    }
+    .prodiv .txtprodivlinks a:hover {
+        font-size: 0.99rem;
+    }
+    .prodiv .txtprodiv h1 {
+        font-size: 2rem;
+    }
+    .prodiv .txtprodiv h2 {
+        font-size: 1rem;
+    }
+
+    .footer p {
+        font-size: 0.80rem;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .prodiv {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .cont {
+        width:90%;
+    }
+}
+
+
+@media screen and (max-width:600px) {
+    .cont {
+        width:90%;
+    }
+    .secwel .txdiv h1 {
+        font-size: 1.50rem;
+    }
+    .secwel .txdiv h2 {
+        font-size: 0.90rem;
+    }
+    .secwel .txdiv h3 {
+        font-size: 0.90rem;
+    }
+    .secprovid h1 {
+        font-size: 1.50rem;
+    }
+    .viddiv .txtviddiv h1 {
+        font-size:1.50rem;
+    }    
+    .viddiv .txtviddivlinks .viddivbtn {
+        font-size: 2rem;
+    }
+    .txtviddivlinks .viddivbtn:hover {
+        font-size: 1.9rem;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .cont {
+        width:95%;
+    }
+    .divbtnprovid .probtn {
+        height:50px;
+        padding: 10px;
+        font-size: 1rem;
+    }
+    .divbtnprovid .vidbtn {
+        height: 50px;
+        padding: 10px;
+        font-size: 1rem;
+    }
+    .cont main .secwel {
+        flex-direction: column;
+        padding:10px;
+    }
+    main .secwel .txdiv {
+        padding-left: 0;
+    }    
+    .imdivmobile {
+        display: block;
+    }
+    main .secwel .imdiv {
+        display: none;
+    }
+    .footer p {
+        font-size: 0.70rem;
+    }
+}
+@media screen and (max-width:350px) {
+    .secwel .txdiv h1 {
+        font-size: 1rem;
+    }
+    .secwel .txdiv h2 {
+        font-size: 0.80rem;
+    }
+    .secwel .txdiv h3 {
+        font-size: 0.80rem;
+    }
+    .secprovid h1 {
+        font-size: 1rem;
+    }
+    .impro {
+        display:none;
+    }
+    .impromobile {
+        display: inline;
+    }
+
+    .imdivmobile {
+        display: none;
+    }
+    .imdivmobiletwo {
+        display: inline;
+    }
+    .prodiv .txtprodivlinks {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .prodiv .txtprodiv h1 {
+        font-size: 1.5rem;
+    }
+    .prodiv .txtprodiv h2 {
+        font-size: 1rem;
+    }    
+    .viddiv .txtviddiv h1 {
+        font-size:1rem;
+    }    
+    .viddiv .txtviddivlinks .viddivbtn {
+        font-size: 1.20rem;
+    }
+    .txtviddivlinks .viddivbtn:hover {
+        font-size: 1.19rem;
+    }
+
+}
+
+@media screen and (max-width:220px) {
+    .divbtnprovid {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .divbtnprovid .probtn {
+        margin-right:0;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .divbtnprovid .vidbtn {
+        width: 100%;
+    }
+    .impromobile {
+        display: none;
+    }
+    .footer p {
+        font-size:0.60rem;
+    }    
+}

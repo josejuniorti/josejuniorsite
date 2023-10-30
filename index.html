@@ -1,120 +1,125 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html>
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Jose Junior</title>
+        <meta name="description" content="Olá, seja bem vindo. Meu nome é José Júnior, sou estudante de programação e essa é a minha 'base' na internet. Aqui você encontrará os projetos que venho desenvolvendo além dos vídeos do meu canal no Youtube que abordam principalmente programação e Linux.">
+        <meta name="keywords" content="tecnologia, informação, ti, dev, desenvolvedor">
+        <meta name="author" content="Jose Junior">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Mooli&family=Work+Sans&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-        <link rel="stylesheet" href="css/style.css">
-        <script defer src="js/script.js"></script>
-        <link rel="icon" type="image/x-icon" href="imagens/icon.png">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="styles/style.css">
+        <script defer src="scripts/script.js"></script>
+        <link rel="icon" type="image/x-icon" href="images/icon.png">
     </head>
-        <body>
-            <header class="header">
-                <h1><a href="index.html" target="_Self" title="josejunior">josejunior</a></h1>
-                <div id="menumob" class="menumob">
-                    <a href="javascript:void(0)" class="closebtn" onclick="funCloseMenuMob()">&times;</a>
-                    <div>
-                        <a href="index.html" title="Início">Início</a>
-                        <a href="projetos.html" title="Projetos">Projetos</a>
-                        <a href="videos.html" target="_Self" title="Vídeos">Vídeos</a>
-                        <a href="#" target="_Self" title="Posts">Posts</a>
-                        <a href="#" target="_Self" title="Scripts">Scripts</a>
-                        <a href="#" target="_Self" title="Dotfiles">Dotfiles</a>
-                        <a href="#" target="_Self" title="Contato">Contato</a>    
+    <body>
+        <div class="cont">
+            <main>
+                <section class="secwel">
+                    <div class="imdiv">
+                        <img src="images/josejunior.jpg" alt="Jose Junior" style="width:170px; height:170px;">
                     </div>
-                </div>
-                <button class="menubtn" onclick="funOpenMenuMob()">
-                    <i class="fa-solid fa-bars"></i>
-                </button>
-                <nav class="nav">
-                    <ul>
-                        <li>
-                            <a href="index.html" title="Início">Início</a>
-                        </li>
-                        <li>
-                            <a href="projetos.html" title="Projetos">Projetos</a>
-                        </li>
-                        <li>
-                            <a href="videos.html" target="_Self" title="Vídeos">Vídeos</a>
-                        </li>
-                        <li>
-                            <a href="#" target="_Self" title="Posts">Posts</a>
-                        </li>
-                        <li>
-                            <a href="#" target="_Self" title="Scripts">Scripts</a>
-                        </li>
-                        <li>
-                            <a href="#" target="_Self" title="Dotfiles">Dotfiles</a>
-                        </li>
-                        <li>
-                            <a href="#" target="_Self" title="Contato">Contato</a>
-                        </li>
-                </nav>
-            </header>
-            <main class="main">
-                <section class="secone">
-                    <img src="imagens/josejuniorm.jpeg" id="imgt" alt="josejunior" style="width:150px; height:150px;">
-                    <img src="imagens/josejuniormm.jpeg" id="imgth" alt="josejunior" style="width:80px; height:80px;">
-                    <div>
-                        <h1>Olá meu nome é <span>Jose Junior</span></h1>
-                        <p>Sou um estudante de programação e tenho um canal no youtube em que compartilho o meu conhecimento sobre distribuições baseadas em Linux.</p>
-                        <p>Este site foi criado para ser a minha "base" na internet, aqui você encontrará os meus projetos, meus scripts, meus dotfiles e alguns posts com conteúdos
-                        complementares aos meus vídeos.</a></p>
+                    <div class="imdivmobile">
+                        <img src="images/josejunior.jpg" alt="Jose Junior" style="width:120px; height:120px;">
                     </div>
-                    <img src="imagens/josejunior.jpeg" alt="josejunior" style="width:300px; height:200px;">
+                    <div class="imdivmobiletwo">
+                        <img src="images/josejunior.jpg" alt="Jose Junior" style="width:90px; height:90px;">
+                    </div>
+                    <div class="txdiv">
+                        <h1>Olá, seja bem vindo</h1>
+                        <h2>Meu nome é Jose Junior, sou estudante de programação e essa daqui é a minha "base" na internet.</h2>
+                        <h3>Nesse site você encontrará os projetos que venho desenvolvendo e também os vídeos do meu canal no Youtube que abordam principalmente os temas programação e Linux.</h3>
+                    </div>
                 </section>
-                <section class="sectwo">
-                    <h1>Procurando por algo?</h1>
-                    <ul>
-                        <li>
-                            <a href="videos.html" target="_Self" title="Assista meus últimos vídeos">Assista meus últimos vídeos no Youtube.</a>
-                        </li>
-                        <li>
-                            <a href="#" target="_Self" title="Acesse meus dotfiles">Acesse meus dotfiles.</a>
-                        </li>
-                        <li>
-                            <a href="#" target="_Self" title="Acesse meus scripts">Acesse meus scripts.</a>
-                        </li>
-                        <li>
-                            <span>Deseja entrar em contato? Fique a vontade para <a href="#" target="_Blank" title="deixar uma mensagem">deixar uma mensagem</a>.</span>
-                        </li>
-                    </ul>
+                <section class="secprovid">
+                    <h1>O que deseja ver?</h1>
+                    <div class="divbtnprovid">
+                    <button type="button" class="probtn" id="probtn" onclick="launchPro ()">PROJETOS</button>
+                    <button type="button" class="vidbtn" id="vidbtn" onclick="launchVid ()">VÍDEOS</button>
+                    </div>
                 </section>
-                <section class="secthree">
-                    <ul>
-                        <h1>Projetos recentes</h1>
-                        <li>
-                            <a href="https://bible-verses.vercel.app/" target="_Blank" title="BibleVerses - Site que exibe versículos bíblicos">BibleVerses - Site que exibe versículos bíblicos</a>
-                        </li>
-                        <li>
-                            <a href="https://geradordesenhas-two.vercel.app/" target="_Blank" title="Gerador de senhas - Site que gera senhas">Gerador de senhas - Site que gera senhas</a>
-                        </li>
-                        <li>
-                            <a href="https://convertext.vercel.app/" target="_Blank" title="ConverText - Site que converte textos(maiscúlo/minúsculo)">ConverText - Site que converte textos (maiscúlo/minúsculo)</a>
-                        </li>
-                        <li>
-                            <a href="projetos.html" id="allpr" target="Self" title="Ver todos os projetos">Ver todos os projetos</a>
-                        </li>
-                    </ul>
+                <section id="pro">
+                    <div class="prodiv">
+                        <img src="images/bibleverses.png" alt="Bible Verses" class="impro" style="width:290px; height:180px;">
+                        <img src="images/bibleverses.png" alt="Bible Verses" class="impromobile" style="width:190px; height:100px;">
+                        <div class="txtprodiv">
+                            <h1>Bible Verses</h1>
+                            <h2>Esse projeto é um portal que tem a funcionalidade de exibir versículos bíblicos. Foi desenvolvido com as linguagens HTML5, CSS3 e JavaScript.</h2>
+                            <div class="txtprodivlinks">
+                                <a href="https://bible-verses.vercel.app/" target="_blank" title="Visite o projeto">Visite o projeto</a>
+                                <a href="https://github.com/josjunior/BibleVerses" target="_blank" title="Veja o código fonte">Veja o código fonte</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="prodiv">
+                        <img src="images/geradordesenhas.png" alt="Gerador de senhas" class="impro" style="width:290px; height:180px;">
+                        <img src="images/geradordesenhas.png" alt="Gerador de senhas" class="impromobile" style="width:190px; height:100px;">
+                        <div class="txtprodiv">
+                            <h1>Gerador de senhas</h1>
+                            <h2>Esse projeto é um site que gera senhas de acordo com o tamanho de caracteres escolhido pelo usuário. Desenvolvido com HTML5, CSS3 e JS.</h2>
+                            <div class="txtprodivlinks">
+                                <a href="https://geradordesenhas-two.vercel.app/" target="_blank" title="Visite o projeto">Visite o projeto</a>
+                                <a href="https://github.com/josjunior/geradordesenhas" target="_blank" title="Veja o código fonte">Veja o código fonte</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="prodiv">
+                        <img src="images/convertext.png" alt="ConverText" class="impro" style="width:290px; height:180px;">
+                        <img src="images/convertext.png" alt="ConverText" class="impromobile" style="width:190px; height:100px;">
+                        <div class="txtprodiv">
+                            <h1>ConverText</h1>
+                            <h2>Esse projeto é um site que converte textos para letras maiúsculas ou minúsculas. Foi desenvolvido com HTML5, CSS3 e JavaScript.</h2>
+                            <div class="txtprodivlinks">
+                                <a href="https://convertext.vercel.app/" target="_blank" title="Visite o projeto">Visite o projeto</a>
+                                <a href="https://github.com/josjunior/convertext" target="_blank" title="Veja o código fonte">Veja o código fonte</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="prodiv">
+                        <img src="images/dataehora.png" alt="Data e Hora" class="impro" style="width:290px; height:180px;">
+                        <img src="images/dataehora.png" alt="Data e Hora" class="impromobile" style="width:190px; height:100px;">
+                        <div class="txtprodiv">
+                            <h1>Data e Hora</h1>
+                            <h2>Esse projeto é um site que sincroniza e exibe a data e a hora atuais. Foi desenvolvido com HTML5, CSS3 e JavaScript.</h2>
+                            <div class="txtprodivlinks">
+                                <a href="https://dataehorajs.vercel.app/" target="_blank" title="Visite o projeto">Visite o projeto</a>
+                                <a href="https://github.com/josjunior/dataehorajs" target="_blank" title="Veja o código fonte">Veja o código fonte</a>
+                            </div>
+                        </div>
+                    </div>
                 </section>
-                <section class="secfour">
-                    <ul>
-                        <h1>Últimos posts</h1>
-                        <li>
-                            <a href="#" target="_Self" title="Em breve">Em breve</a>
-                        </li>
-                        <li>
-                            <a href="#" id="allpo" target="_Self" title="Ver todos os posts">Ver todos os posts</a>
-                        </li>
-                    </ul>
+                <section id="vid">
+                    <div class="viddiv">
+                        <div class="vidimgtxtdiv">
+                            <div class="txtviddiv">
+                                <h1>Meu Arch Linux com o Sway, gerenciador de janelas e compositor Wayland</h1>
+                                <div class="txtviddivlinks">
+                                    <button type="button" onclick="playvidone()" class="viddivbtn">ASSISTIR<i class="fa-brands fa-youtube"></i></button>
+                                </div>
+                            </div>    
+                        </div>
+                        <iframe width="100%" height="400"  id="vidone" src="https://www.youtube.com/embed/YpkjmR0nPGI?si=n_kEjwpyi4i-m3W5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div class="viddiv">
+                        <div class="vidimgtxtdiv">
+                            <div class="txtviddiv">
+                                <h1>Como Instalar o VirtualBox no Arch Linux</h1>
+                                <div class="txtviddivlinks">
+                                    <button type="button" onclick="playvidtwo()" class="viddivbtn">ASSISTIR<i class="fa-brands fa-youtube"></i></button>
+                                </div>
+                            </div>    
+                        </div>
+                        <iframe width="100%" height="400"  id="vidtwo" src="https://www.youtube.com/embed/9iZO7PPigxI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
                 </section>
+                <button type="button" class="againl" id="againl" onclick="window.location.reload()"><i class="fa-solid fa-arrow-left"></i></button>
             </main>
             <footer class="footer">
-                <p>Por Jose Junior - Veja o código fonte deste site no <a href="https://github.com/josjunior/josejuniorsite" target="_Blank" title="GitHub">GitHub</a>.</p>
+                <p>Desenvolvido por Jose Junior | <a href="mailto:sudojrr@gmail.com" title="Contato">Contato</a></p>
             </footer>
-        </body>
+        </div>
+    </body>
 </html>
