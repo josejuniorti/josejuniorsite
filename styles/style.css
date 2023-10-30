@@ -133,10 +133,10 @@ main .secwel .txdiv {
 .prodiv .txtprodivlinks a:link {
     text-decoration: none;
     color: rgb(0, 0, 0);
-    font-size:2rem;
+    font-size:1.50rem;
 }
 .prodiv .txtprodivlinks a:hover {
-    font-size: 1.9rem;
+    font-size: 1.40rem;
 }
 .prodiv .txtprodivlinks a:visited {
     color: rgb(0, 0, 0);
@@ -146,10 +146,10 @@ main .secwel .txdiv {
 }
 .prodiv .txtprodiv h1 {
     padding-bottom:10px;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 .prodiv .txtprodiv h2 {
-    font-size: 2rem;
+    font-size: 1.50rem;
 }
 
 #vid {
