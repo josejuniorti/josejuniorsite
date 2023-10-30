@@ -335,7 +335,7 @@ main .secwel .txdiv {
     }
     .cont main .secwel {
         flex-direction: column;
-        padding:10px;
+        padding:20px;
     }
     main .secwel .txdiv {
         padding-left: 0;
@@ -446,9 +446,4 @@ main .secwel .txdiv {
     .footer p {
         font-size:0.70rem;
     }    
-}
-
-.teset {
-    background-color: rgb(4, 32, 43);
-    color:rgb(3, 56, 156);
 }
