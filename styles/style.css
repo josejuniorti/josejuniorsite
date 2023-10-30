@@ -133,10 +133,10 @@ main .secwel .txdiv {
 .prodiv .txtprodivlinks a:link {
     text-decoration: none;
     color: rgb(0, 0, 0);
-    font-size:1.5rem;
+    font-size:2rem;
 }
 .prodiv .txtprodivlinks a:hover {
-    font-size: 1.4rem;
+    font-size: 1.9rem;
 }
 .prodiv .txtprodivlinks a:visited {
     color: rgb(0, 0, 0);
@@ -149,7 +149,7 @@ main .secwel .txdiv {
     font-size: 3rem;
 }
 .prodiv .txtprodiv h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 #vid {
@@ -379,13 +379,17 @@ main .secwel .txdiv {
         align-items: center;
     }
     .prodiv .txtprodiv h1 {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     .prodiv .txtprodiv h2 {
         font-size: 1rem;
     }    
+    .prodiv .txtprodivlinks a:link {
+        font-size: 1rem;
+        margin-bottom: 5px;
+    }
     .viddiv .txtviddiv h1 {
-        font-size:1rem;
+        font: 2rem;
     }    
     .viddiv .txtviddivlinks .viddivbtn {
         font-size: 1.20rem;
@@ -421,6 +425,9 @@ main .secwel .txdiv {
     }
     .divbtnprovid .vidbtn {
         width: 100%;
+    }
+    .prodiv .txtprodiv h1 {
+        font-size: 1.5rem;
     }
     .impromobile {
         display: none;
