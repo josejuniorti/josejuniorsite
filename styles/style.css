@@ -251,14 +251,6 @@ main .secwel .txdiv {
         padding: 20px;
         font-size: 2.5rem;
     }
-
-    .prodiv .txtprodivlinks a:link {
-        font-size: 1rem;
-    }
-    .prodiv .txtprodivlinks a:hover {
-        font-size: 0.99rem;
-    }
-
     .footer p {
         font-size: 0.80rem;
     }
@@ -308,6 +300,15 @@ main .secwel .txdiv {
     }
     .txtviddivlinks .viddivbtn:hover {
         font-size: 1.9rem;
+    }
+    .prodiv .txtprodivlinks {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .prodiv .txtprodivlinks a:link {
+        margin-bottom: 5px;
     }
 }
 
@@ -367,16 +368,14 @@ main .secwel .txdiv {
 }
 
 @media screen and (max-width:350px) {
-    @media screen and (max-width:450px) {
-        .secwel .txdiv h1 {
-            font-size: 2rem;
-        }
-        .secwel .txdiv h2 {
-            font-size: 1rem;
-        }
-        .secwel .txdiv h3 {
-            font-size: 1rem;
-        }
+    .secwel .txdiv h1 {
+        font-size: 2rem;
+    }
+    .secwel .txdiv h2 {
+        font-size: 1rem;
+    }
+    .secwel .txdiv h3 {
+        font-size: 1rem;
     }
     .divbtnprovid .probtn {
         height:70px;
@@ -394,15 +393,6 @@ main .secwel .txdiv {
     .impromobile {
         display: inline;
     }
-    .prodiv .txtprodivlinks {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .prodiv .txtprodivlinks a:link {
-        margin-bottom: 5px;
-    }
     .viddiv .txtviddiv h1 {
         font: 2rem;
     }    
@@ -415,7 +405,7 @@ main .secwel .txdiv {
 
 }
 
-@media screen and (max-width:270px) {
+@media screen and (max-width:290px) {
     .secwel .txdiv h1 {
         font-size: 1rem;
     }
@@ -445,11 +435,19 @@ main .secwel .txdiv {
         font-size: 1.5rem;
     }
     .prodiv .txtprodiv h2 {
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
     .impromobile {
         display: none;
     }
+    .prodiv .txtprodivlinks a:link {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-size:1.1rem;
+    }
+    .prodiv .txtprodivlinks a:hover {
+        font-size: 1rem;
+    }    
     .footer p {
         font-size:0.70rem;
     }    
