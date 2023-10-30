@@ -349,18 +349,6 @@ main .secwel .txdiv {
     }
 }
 @media screen and (max-width:350px) {
-    .secwel .txdiv h1 {
-        font-size: 1.7rem;
-    }
-    .secwel .txdiv h2 {
-        font-size: 1rem;
-    }
-    .secwel .txdiv h3 {
-        font-size: 1rem;
-    }
-    .secprovid h1 {
-        font-size: 1.7rem;
-    }
     .divbtnprovid .probtn {
         height:70px;
         padding: 10px;
