@@ -238,9 +238,6 @@ main .secwel .txdiv {
 }
 
 @media screen and (max-width:1100px) {
-    .secwel .txdiv h1 {
-        font-size: 2rem;
-    }
     .secprovid h1 {
         font-size: 2rem;
     }
@@ -286,6 +283,12 @@ main .secwel .txdiv {
     .cont {
         width:90%;
     }
+    .imdivmobile {
+        display: none;
+    }
+    .imdivmobiletwo {
+        display: inline;
+    }
 }
 
 
@@ -324,23 +327,57 @@ main .secwel .txdiv {
     }
     .cont main .secwel {
         flex-direction: column;
-        padding:20px;
     }
     main .secwel .txdiv {
         padding-left: 0;
         margin-top:5px;
-    }    
+    }       
     .secwel .txdiv h1 {
-        font-size: 2rem;
+        font-size: 2.3rem;
     }
     .secwel .txdiv h2 {
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
     .secwel .txdiv h3 {
-        font-size: 1rem;
-    }    
+        font-size: 1.3rem;
+    }
 }
+@media screen and (max-width:450px) {
+    .secwel .txdiv h1 {
+        font-size: 2.2rem;
+    }
+    .secwel .txdiv h2 {
+        font-size: 1.2rem;
+    }
+    .secwel .txdiv h3 {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .secwel .txdiv h1 {
+        font-size: 2.1rem;
+    }
+    .secwel .txdiv h2 {
+        font-size: 1.1rem;
+    }
+    .secwel .txdiv h3 {
+        font-size: 1.1rem;
+    }
+}
+
 @media screen and (max-width:350px) {
+    @media screen and (max-width:450px) {
+        .secwel .txdiv h1 {
+            font-size: 2rem;
+        }
+        .secwel .txdiv h2 {
+            font-size: 1rem;
+        }
+        .secwel .txdiv h3 {
+            font-size: 1rem;
+        }
+    }
     .divbtnprovid .probtn {
         height:70px;
         padding: 10px;
@@ -355,13 +392,6 @@ main .secwel .txdiv {
         display:none;
     }
     .impromobile {
-        display: inline;
-    }
-
-    .imdivmobile {
-        display: none;
-    }
-    .imdivmobiletwo {
         display: inline;
     }
     .prodiv .txtprodivlinks {
@@ -385,7 +415,7 @@ main .secwel .txdiv {
 
 }
 
-@media screen and (max-width:250px) {
+@media screen and (max-width:270px) {
     .secwel .txdiv h1 {
         font-size: 1rem;
     }
