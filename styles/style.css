@@ -324,14 +324,14 @@ main .secwel .txdiv {
         width:95%;
     }
     .divbtnprovid .probtn {
-        height:50px;
+        height:70px;
         padding: 10px;
-        font-size: 1rem;
+        font-size: 1.60rem;
     }
     .divbtnprovid .vidbtn {
-        height: 50px;
+        height: 70px;
         padding: 10px;
-        font-size: 1rem;
+        font-size: 1.60rem;
     }
     .cont main .secwel {
         flex-direction: column;
@@ -339,6 +339,7 @@ main .secwel .txdiv {
     }
     main .secwel .txdiv {
         padding-left: 0;
+        margin-top:5px;
     }    
     .imdivmobile {
         display: block;
@@ -349,16 +350,26 @@ main .secwel .txdiv {
 }
 @media screen and (max-width:350px) {
     .secwel .txdiv h1 {
-        font-size: 1.30rem;
+        font-size: 1.7rem;
     }
     .secwel .txdiv h2 {
-        font-size: 0.90rem;
+        font-size: 1rem;
     }
     .secwel .txdiv h3 {
-        font-size: 0.90rem;
+        font-size: 1rem;
     }
     .secprovid h1 {
-        font-size: 1.30rem;
+        font-size: 1.7rem;
+    }
+    .divbtnprovid .probtn {
+        height:70px;
+        padding: 10px;
+        font-size: 1.10rem;
+    }
+    .divbtnprovid .vidbtn {
+        height: 70px;
+        padding: 10px;
+        font-size: 1.10rem;
     }
     .impro {
         display:none;
@@ -400,7 +411,7 @@ main .secwel .txdiv {
 
 }
 
-@media screen and (max-width:220px) {
+@media screen and (max-width:250px) {
     .secwel .txdiv h1 {
         font-size: 1rem;
     }
