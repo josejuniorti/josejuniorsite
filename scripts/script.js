@@ -18,3 +18,6 @@ function playvidone() {
 function playvidtwo() {
     document.getElementById("vidtwo").style.display = "inline";
 }
+function playvidthree() {
+    document.getElementById("vidthree").style.display = "inline";
+}
